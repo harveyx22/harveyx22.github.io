@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Peter Harvey</title>
         <link href="styles/cssreset.css" rel="stylesheet"/>
         <link href="styles/main.css" rel="stylesheet"/>
     </head>
-    <body>
-        <h1>Hello</h1>
+    <body class="body">
+        <header>
+            <h1 class="name">Peter Harvey</h1>
+            <nav class="navbar">
+                <button id="homebutton">home</button>
+                <button id="projectsbutton">portfolio</button>
+                <button id="contactbutton">contact me</button>
+            </nav>
+        </header>
+
+        <div class="articlecontainer">
+            <div id="home">
+                <h2>About me:</h2>
+                <p>
+                    I'm a mechanical engineer exploring the world of software development. 
+                                    
+                </p>
+                <p>
+                    
+                </p>
+
+            </div>
+
+            <div id="projects" class="hidden">
+                <h2>My projects can be found here: </h2>
+                <div>
+                    <a href="https://github.com/harveyx22" target="_blank"><img src="assets/images/github.png"></a>
+                    <a href="https://github.com/harveyx22" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div id="contact" class="hidden">
+                <h2>Contact Me:</h2>
+                <div>
+                    <a href="mailto: peter.f.harvey.iv@gmail.com"><img src="assets/images/email.png"></a>
+                    <a href="mailto: peter.f.harvey.iv@gmail.com" class="profileLink">Peter.F.Harvey.IV@gmail.com</a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/in/peter-harvey-b6560a82"><img src="assets/images/linkedin.png" class="svgLogo"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/peter-harvey-b6560a82" class="profileLink">LinkedIn</a>
+                </div>                
+            </div>     
+        </div>       
+    
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
